@@ -2,11 +2,11 @@
 
 #### 1. Buy Now button fix
 
-.product-price-btn::after is interfering with button hover behaviour. However, anticipating this styling is included by design, I have left it there and added "pointer-events: none" to its properties which allows the hover animation to work.
+- .product-price-btn::after is interfering with button hover behaviour. However, anticipating this styling is included by design, I have left it there and added "pointer-events: none" to its properties which allows the hover animation to work.
 
 #### 2. Image border fix
 
-index.html line 13 - clas="product-img" was misspelled and therefore class was not defined. Should be class="product-img". Fixed spelling error to allow class to be defined correctly and picked up in the CSS file. Image border radius now corrected.
+- index.html line 13 - clas="product-img" was misspelled and therefore class was not defined. Should be class="product-img". Fixed spelling error to allow class to be defined correctly and picked up in the CSS file. Image border radius now corrected.
 
 #### 3. Image optimisation
 

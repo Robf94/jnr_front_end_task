@@ -2,7 +2,7 @@
 
 #### 1. Buy Now button fix
 
-- .product-price-btn::after is interfering with button hover behaviour. However, anticipating this styling is included by design, I have left it there and added "pointer-events: none" to its properties which allows the hover animation to work.
+- .product-price-btn::after is interfering with button hover behaviour. However, anticipating this styling is included by design, I have left it there and added "pointer-events: none" to its properties which allows the hover animation on the button to work.
 
 #### 2. Image border fix
 
@@ -16,4 +16,4 @@
 
 - Refactored using SCSS to allow for nesting and better organisation. Although I have not created any here, variables and mixins would be beneficial for reusable elements if the page was to be developed into a larger site.
 
-- Move img dimensions into SCSS, added alt to img.
+- Moved img dimensions into SCSS, added alt to img.
